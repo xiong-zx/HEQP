@@ -1,6 +1,6 @@
-# NeuralQP-Anonymous
+# HEQP-Release
 
-This repository contains the code for `NeuralQP`, a general hypergraph-based framework for large-scale Quadratically Constrained Quadratic Programs (QCQPs). This document provides detailed instructions for setting up the environment, installing dependencies, and downloading the dataset.
+This repository contains the code for our paper *HEQP: A Hypergraph Neural Network-Based Evolutionary Method for Large-Scale QCQPs*. This document provides detailed instructions for setting up the environment, installing dependencies, and downloading the dataset.
 
 ## Installation
 
@@ -154,7 +154,7 @@ You need to modify the arguments in `config/baseline.yaml`. Here's a brief expla
   - `gap_limit`: No specific gap limit is set.
   - `n_instances`: Specifies the number of problem instances to run.
 
-#### 3.2 Run NeuralQP
+#### 3.2 Run HEQP
 
 ```bash
 python Main.py
@@ -251,3 +251,10 @@ To analyze the results, you can run
 ```bash
 python analyzeLNS.py
 ```
+
+## Contact
+
+For questions, feedback, and collaboration, please reach out via email:
+- **General questions / collaboration**: Huigen Ye (<yhg23@mails.tsinghua.edu.cn>)
+- **Implementation & experiments**: Zhixiao Xiong (<xiong-zx21@mails.tsinghua.edu.cn>)
+
